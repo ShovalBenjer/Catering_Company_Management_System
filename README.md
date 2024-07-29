@@ -1,6 +1,3 @@
-# Catering_Company_Management_System
-This repository contains the code and resources for a comprehensive Catering Company Management System. This system is designed to enhance and streamline the operations and event management for catering companies. It includes modules for managing human resources, clients, food and equipment inventory, suppliers, and the events themselves.
-
 # Catering Company Management System
 
 This repository contains the code and resources for a comprehensive Catering Company Management System. This system is designed to enhance and streamline the operations and event management for catering companies. It includes modules for managing human resources, clients, food and equipment inventory, suppliers, and the events themselves.
@@ -19,14 +16,12 @@ This system provides a comprehensive solution for managing all aspects of a cate
    ```bash
    git clone https://github.com/yourusername/Catering_Company_Management_System.git
 Install the required dependencies:
-
 bash
-Copy code
 npm install
+
 or
 
 bash
-Copy code
 pip install -r requirements.txt
 (depending on the stack used).
 
@@ -37,8 +32,8 @@ Configure the application settings in the /config directory.
 Start the application:
 
 bash
-Copy code
 npm start
+
 or
 
 bash
