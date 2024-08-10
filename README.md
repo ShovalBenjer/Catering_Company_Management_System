@@ -1,6 +1,6 @@
 # Catering Company Management System
 
-This repository contains the code and resources for a comprehensive Catering Company Management System. This system is designed to enhance and streamline the operations and event management for catering companies. It includes modules for managing human resources, clients, food and equipment inventory, suppliers, and the events themselves.
+This repository contains the code and resources for a comprehensive Catering Company Management System, with a strong focus on SQL for managing databases. This system is designed to enhance and streamline the operations and event management for catering companies. It includes modules for managing human resources, clients, food and equipment inventory, suppliers, and the events themselves.
 
 ## Key Features
 - **Human Resources Management**: Efficiently manage staff schedules, assignments, and roles.
@@ -8,7 +8,8 @@ This repository contains the code and resources for a comprehensive Catering Com
 - **Inventory Management**: Track and manage food and equipment inventory to ensure optimal stock levels and reduce waste.
 - **Supplier Management**: Manage supplier information, orders, and delivery schedules to ensure timely and cost-effective procurement.
 - **Event Management**: Plan and execute events with features for scheduling, budgeting, and resource allocation. Includes cost and revenue calculation for detailed financial analysis.
-
+- **DataBase Management** Implemented using SQL scripts to create, manage, and query the catering management database, ensuring reliable and efficient data storage and retrieval.
+   
 This system provides a comprehensive solution for managing all aspects of a catering company's operations, ensuring seamless coordination between staff and clients, and enhancing overall efficiency and profitability.
 
 ## Getting Started
