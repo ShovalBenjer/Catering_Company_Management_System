@@ -1,5 +1,2 @@
--- This is a SQL script
-SELECT * FROM your_table;
-
 *.sql linguist-language=SQL
 *.sql linguist-detectable=true
