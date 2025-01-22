@@ -1,0 +1,485 @@
+USE project1;
+
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values (1, 'Ed', 'Wiegand', 'Ed_Wiegand@yahoo.com', '056-5940545');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values(2, 'Ernest', 'Hills', 'Ernest_Hills2@hotmail.com', '051-9860307');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values(3, 'Joann', 'Pouros', 'Joann.Pouros52@yahoo.com', '053-5446380');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values (4, 'David', 'Tromp', 'David_Tromp@hotmail.com', '057-1021490');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values (5, 'Felicia', 'Fahey', 'Felicia_Fahey@yahoo.com', '056-7246473');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values(6, 'Johnathan', 'Lemke', 'Johnathan_Lemke@hotmail.com', '055-4484140');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values (7, 'Shari', 'Kling-Schroeder', 'Shari.Kling-Schroeder72@hotmail.com', '055-0397048');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values (8, 'Bernard', 'Moore', 'Bernard.Moore@hotmail.com', '052-0666167');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values (9, 'Mercedes', 'VonRueden', 'Mercedes.VonRueden@yahoo.com', '055-9446837');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values (10, 'Lewis', 'Green', 'Lewis.Green@yahoo.com', '054-8624459');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values (11, 'Travis', 'Cronin', 'Travis32@gmail.com', '057-0812955');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values (12, 'Blanche', 'O\'Reilly', 'Blanche.OReilly@hotmail.com', '052-8000748');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values (13, 'Wendy', 'Weimann', 'Wendy.Weimann95@hotmail.com', '053-8174559');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values(14, 'Sheldon', 'Corwin', 'Sheldon.Corwin29@gmail.com', '057-6377287');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values (15, 'Phil', 'Ferry', 'Phil_Ferry@hotmail.com', '056-4833981');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values(16, 'Andrea', 'Durgan', 'Andrea97@gmail.com', '054-4288654');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values(17, 'Eileen', 'Franecki-Cartwright', 'Eileen30@gmail.com', '055-2213542');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values(18, 'Brenda', 'Johnston', 'Brenda.Johnston17@yahoo.com', '056-5216938');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values(19, 'Rex', 'Ruecker', 'Rex93@yahoo.com', '051-6635793');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values(20, 'Terence', 'Larson', 'Terence_Larson@gmail.com', '059-1421504');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values(21, 'Terry', 'Ruecker', 'Terry_Ruecker@gmail.com', '051-8917174');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values(22, 'Christie', 'Larson', 'Christie_Larson38@yahoo.com', '056-4303328');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values(23, 'Christina', 'Hauck', 'Christina.Hauck91@hotmail.com', '059-2215479');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values(24, 'Stewart', 'Green', 'Stewart_Green55@hotmail.com', '055-7100624');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values(25, 'Dan', 'Wehner', 'Dan83@yahoo.com', '058-7748568');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values(26, 'Alexander', 'Cassin', 'Alexander.Cassin23@gmail.com', '058-7903681');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values(27, 'Brandy', 'Goodwin', 'Brandy.Goodwin@yahoo.com', '059-1794492');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values(28, 'Jill', 'Harris', 'Jill36@hotmail.com', '055-6152610');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values(29, 'Jonathon', 'Kiehn', 'Jonathon_Kiehn@hotmail.com', '051-3424938');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values(30, 'Marco', 'O\'Connell', 'Marco.OConnell@yahoo.com', '055-6835598');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values(31, 'Stacey', 'Ratke', 'Stacey_Ratke95@gmail.com', '059-4673195');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values(32, 'Alexander', 'Olson', 'Alexander.Olson@hotmail.com', '054-5286513');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values(33, 'Irving', 'Emmerich', 'Irving_Emmerich@gmail.com', '058-1213986');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values (34, 'Olivia', 'Littel-Beahan', 'Olivia_Littel-Beahan68@hotmail.com', '055-0390487');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values (35, 'Monique', 'Lemke', 'Monique_Lemke2@yahoo.com', '055-1624359');
+Insert Into person(person_ID,first_name,last_name,email,phone_number)Values (36, 'Jeanne', 'Grady', 'Jeanne.Grady92@gmail.com', '055-7583420');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values (37, 'Opal', 'Weimann', 'Opal.Weimann29@gmail.com', '051-0201447');
+Insert Into person(person_ID,first_name,last_name,email,phone_number) Values (38, 'Rodney', 'Harber', 'Rodney_Harber@yahoo.com', '058-6316353');
+
+Insert Into customer (customer_ID, first_name, last_name, email, phone_number, credit_card) Values (1, 'Ed', 'Wiegand', 'Ed_Wiegand@yahoo.com', '056-5940545', '6771-8923-5025-6222');  
+Insert Into customer (customer_ID, first_name, last_name, email, phone_number, credit_card) Values (2, 'Ernest', 'Hills', 'Ernest_Hills2@hotmail.com', '051-9860307', '6767-2023-8344-9276-54');  
+Insert Into customer (customer_ID, first_name, last_name, email, phone_number, credit_card) Values (3, 'Joann', 'Pouros', 'Joann.Pouros52@yahoo.com', '053-5446380', '50182793459255738');  
+Insert Into customer (customer_ID, first_name, last_name, email, phone_number, credit_card) Values (4, 'David', 'Tromp', 'David_Tromp@hotmail.com', '057-1021490', '6582-6262-6857-4682-4714');  
+Insert Into customer (customer_ID, first_name, last_name, email, phone_number, credit_card) Values (5, 'Felicia', 'Fahey', 'Felicia_Fahey@yahoo.com', '056-7246473', '3404-355940-98318');  
+Insert Into customer (customer_ID, first_name, last_name, email, phone_number, credit_card) Values (6, 'Johnathan', 'Lemke', 'Johnathan_Lemke@hotmail.com', '055-4484140', '6473-5511-1572-2057');  
+Insert Into customer (customer_ID, first_name, last_name, email, phone_number, credit_card) Values (7, 'Shari', 'Kling-Schroeder', 'Shari.Kling-Schroeder72@hotmail.com', '055-0397048', '6569-4980-7717-1755');  
+Insert Into customer (customer_ID, first_name, last_name, email, phone_number, credit_card) Values (8, 'Bernard', 'Moore', 'Bernard.Moore@hotmail.com', '052-0666167', '4757970052537');  
+Insert Into customer (customer_ID, first_name, last_name, email, phone_number, credit_card) Values (9, 'Mercedes', 'VonRueden', 'Mercedes.VonRueden@yahoo.com', '055-9446837', '3695-113858-0404');  
+Insert Into customer (customer_ID, first_name, last_name, email, phone_number, credit_card) Values (10, 'Lewis', 'Green', 'Lewis.Green@yahoo.com', '054-8624459', '3474-173780-22279');  
+
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event) Values (11, 'Travis', 'Cronin', 'Travis32@gmail.com', '057-0812955','2020-04-12', 46, 600);
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event) Values (12, 'Blanche', 'O\'Reilly', 'Blanche.OReilly@hotmail.com', '052-8000748','2020-04-15',46,600);
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event) Values (13, 'Wendy', 'Weimann', 'Wendy.Weimann95@hotmail.com', '053-8174559','2020-06-19', 44, 600);
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event) Values(14, 'Sheldon', 'Corwin', 'Sheldon.Corwin29@gmail.com', '057-6377287','2020-08-22', 42, 500);
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event) Values (15, 'Phil', 'Ferry', 'Phil_Ferry@hotmail.com', '056-4833981','2020-10-25', 40, 500);
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event) Values(16, 'Andrea', 'Durgan', 'Andrea97@gmail.com', '054-4288654','2020-12-19', 38, 500);
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event) Values(17, 'Eileen', 'Franecki-Cartwright', 'Eileen30@gmail.com', '055-2213542','2021-03-03', 35, 500);
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event) Values(18, 'Brenda', 'Johnston', 'Brenda.Johnston17@yahoo.com', '056-5216938','2021-05-05', 32, 500);
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event) Values(19, 'Rex', 'Ruecker', 'Rex93@yahoo.com', '051-6635793','2021-07-07', 30, 400);
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event)Values(20, 'Terence', 'Larson', 'Terence_Larson@gmail.com', '059-1421504','2021-10-10', 27, 400);
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event)Values(21, 'Terry', 'Ruecker', 'Terry_Ruecker@gmail.com', '051-8917174','2021-12-12', 25, 400);
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event) Values(22, 'Christie', 'Larson', 'Christie_Larson38@yahoo.com', '056-4303328','2022-01-01', 26, 400);
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event) Values(23, 'Christina', 'Hauck', 'Christina.Hauck91@hotmail.com', '059-2215479','2022-03-03', 24, 300);
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event) Values(24, 'Stewart', 'Green', 'Stewart_Green55@hotmail.com', '055-7100624','2022-04-04', 23, 300);
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event) Values(25, 'Dan', 'Wehner', 'Dan83@yahoo.com', '058-7748568','2022-06-06', 21, 500);
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event) Values(26, 'Alexander', 'Cassin', 'Alexander.Cassin23@gmail.com', '058-7903681','2022-10-10', 17, 300);
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event) Values(27, 'Brandy', 'Goodwin', 'Brandy.Goodwin@yahoo.com', '059-1794492','2022-12-12', 15, 300);
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event) Values(28, 'Jill', 'Harris', 'Jill36@hotmail.com', '055-6152610','2023-02-17', 12, 250);
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event) Values(29, 'Jonathon', 'Kiehn', 'Jonathon_Kiehn@hotmail.com', '051-3424938','2023-05-05', 10, 250);
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event) Values(30, 'Marco', 'O\'Connell', 'Marco.OConnell@yahoo.com', '055-6835598','2023-07-07', 08, 250);
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event) Values(31, 'Stacey', 'Ratke', 'Stacey_Ratke95@gmail.com', '059-4673195','2023-08-08', 07, 250);
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event) Values(32, 'Alexander', 'Olson', 'Alexander.Olson@hotmail.com', '054-5286513','2023-11-11', 04, 250);
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event) Values(33, 'Irving', 'Emmerich', 'Irving_Emmerich@gmail.com', '058-1213986','2024-02-02', 01, 250);
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event) Values (34, 'Olivia', 'Littel-Beahan', 'Olivia_Littel-Beahan68@hotmail.com', '055-0390487', '2023-03-19', 11, 200); 
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event) Values (35, 'Monique', 'Lemke', 'Monique_Lemke2@yahoo.com', '055-1624359', '2022-10-18', 16, 300);
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event)Values (36, 'Jeanne', 'Grady', 'Jeanne.Grady92@gmail.com', '055-7583420', '2022-02-08', 24, 350);  
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event) Values (37, 'Opal', 'Weimann', 'Opal.Weimann29@gmail.com', '051-0201447', '2023-09-20', 5, 200);
+Insert Into employee(employee_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event) Values (38, 'Rodney', 'Harber', 'Rodney_Harber@yahoo.com', '058-6316353', '2021-06-24', 33, 400);
+
+
+Insert Into waiter(waiter_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event,waiter_rank,shift) Values(33, 'Irving', 'Emmerich', 'Irving_Emmerich@gmail.com', '058-1213986','2024-02-02', 01, 250,1,'opening');
+Insert Into waiter(waiter_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event,waiter_rank,shift) Values(31, 'Stacey', 'Ratke', 'Stacey_Ratke95@gmail.com', '059-4673195','2023-08-08', 07, 250,1,'opening');
+Insert Into waiter(waiter_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event,waiter_rank,shift) Values(29, 'Jonathon', 'Kiehn', 'Jonathon_Kiehn@hotmail.com', '051-3424938','2023-05-05', 10, 250,1,'closing');
+Insert Into waiter(waiter_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event,waiter_rank,shift) Values(27, 'Brandy', 'Goodwin', 'Brandy.Goodwin@yahoo.com', '059-1794492','2022-12-12', 15, 300,2,'closing');
+Insert Into waiter(waiter_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event,waiter_rank,shift) Values(25, 'Dan', 'Wehner', 'Dan83@yahoo.com', '058-7748568','2022-06-06', 21, 500,2,'opening');
+Insert Into waiter(waiter_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event,waiter_rank,shift) Values(23, 'Christina', 'Hauck', 'Christina.Hauck91@hotmail.com', '059-2215479','2022-03-03', 24, 300,2,'closing');
+Insert Into waiter(waiter_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event,waiter_rank,shift)Values(21, 'Terry', 'Ruecker', 'Terry_Ruecker@gmail.com', '051-8917174','2021-12-12', 25, 400,2,'opening');
+Insert Into waiter(waiter_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event,waiter_rank,shift) Values(19, 'Rex', 'Ruecker', 'Rex93@yahoo.com', '051-6635793','2021-07-07', 30, 400,3,'opening');
+Insert Into waiter(waiter_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event,waiter_rank,shift) Values(17, 'Eileen', 'Franecki-Cartwright', 'Eileen30@gmail.com', '055-2213542','2021-03-03', 35, 500,3,'closing');
+Insert Into waiter(waiter_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event,waiter_rank,shift) Values(32, 'Alexander', 'Olson', 'Alexander.Olson@hotmail.com', '054-5286513','2023-11-11', 04, 250,1,'closing');
+Insert Into waiter (waiter_ID, first_name, last_name, email, phone_number, starting_date, seniority_months, payment_per_event, waiter_rank, shift) Values (34, 'Olivia', 'Littel-Beahan', 'Olivia_Littel-Beahan68@hotmail.com', '055-0390487', '2023-03-19', 11, 200, 1, 'closing');  
+Insert Into waiter (waiter_ID, first_name, last_name, email, phone_number, starting_date, seniority_months, payment_per_event, waiter_rank, shift) Values (35, 'Monique', 'Lemke', 'Monique_Lemke2@yahoo.com', '055-1624359', '2022-10-18', 16, 300, 3, 'closing');  
+Insert Into waiter (waiter_ID, first_name, last_name, email, phone_number, starting_date, seniority_months, payment_per_event, waiter_rank, shift) Values (36, 'Jeanne', 'Grady', 'Jeanne.Grady92@gmail.com', '055-7583420', '2022-02-08', 24, 350, 3, 'opening');  
+Insert Into waiter (waiter_ID, first_name, last_name, email, phone_number, starting_date, seniority_months, payment_per_event, waiter_rank, shift) Values (37, 'Opal', 'Weimann', 'Opal.Weimann29@gmail.com', '051-0201447', '2023-09-20', 5, 200, 2, 'opening');  
+Insert Into waiter(waiter_ID,first_name,last_name,email, phone_number, starting_date, seniority_months, payment_per_event, waiter_rank, shift) Values (38, 'Rodney', 'Harber', 'Rodney_Harber@yahoo.com', '058-6316353', '2021-06-24', 33, 400, 3, 'closing');  
+
+
+Insert Into chef(chef_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event,education) Values(30, 'Marco', 'O\'Connell', 'Marco.OConnell@yahoo.com', '055-6835598','2023-07-07', 08, 250,'galilee culinary institute');
+Insert Into chef(chef_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event,education) Values(28, 'Jill', 'Harris', 'Jill36@hotmail.com', '055-6152610','2023-02-17', 12, 250,'CIA');
+Insert Into chef(chef_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event,education) Values(26, 'Alexander', 'Cassin', 'Alexander.Cassin23@gmail.com', '058-7903681','2022-10-10', 17, 300,'Bishulim');
+Insert Into chef(chef_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event,education) Values(24, 'Stewart', 'Green', 'Stewart_Green55@hotmail.com', '055-7100624','2022-04-04', 23, 30,'galilee culinary institute');
+Insert Into chef(chef_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event,education) Values(22, 'Christie', 'Larson', 'Christie_Larson38@yahoo.com', '056-4303328','2022-01-01', 26, 400,'Bishulim');
+Insert Into chef(chef_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event,education) Values (11, 'Travis', 'Cronin', 'Travis32@gmail.com', '057-0812955','2020-04-12', 46, 600,'Bishulim');
+Insert Into chef(chef_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event,education) Values (12, 'Blanche', 'O\'Reilly', 'Blanche.OReilly@hotmail.com', '052-8000748','2020-04-15',46,600,'CIA');
+Insert Into chef(chef_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event,education) Values (13, 'Wendy', 'Weimann', 'Wendy.Weimann95@hotmail.com', '053-8174559','2020-06-19', 44, 600,'CIA');
+Insert Into chef(chef_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event,education) Values(14, 'Sheldon', 'Corwin', 'Sheldon.Corwin29@gmail.com', '057-6377287','2020-08-22', 42, 500,'galilee culinary institute');
+Insert Into chef(chef_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event,education) Values (15, 'Phil', 'Ferry', 'Phil_Ferry@hotmail.com', '056-4833981','2020-10-25', 40, 500,'Bishulim');
+Insert Into chef(chef_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event,education) Values(16, 'Andrea', 'Durgan', 'Andrea97@gmail.com', '054-4288654','2020-12-19', 38, 500,'galilee culinary institute');
+Insert Into chef(chef_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event,education) Values(18, 'Brenda', 'Johnston', 'Brenda.Johnston17@yahoo.com', '056-5216938','2021-05-05', 32, 500,'Bishulim');
+Insert Into chef(chef_ID,first_name,last_name,email,phone_number,starting_date,seniority_months,payment_per_event,education)Values(20, 'Terence', 'Larson', 'Terence_Larson@gmail.com', '059-1421504','2021-10-10', 27, 400,'CIA');
+
+
+Insert Into dish(dish_ID,dish_name,category,kosher,cost,price,num_of_people_for_dish) Values (1,'tomato soup','first course','parve',100,150,20);
+Insert Into dish(dish_ID,dish_name,category,kosher,cost,price,num_of_people_for_dish) Values (2,'egg salad','first course','parve',100,150,20);
+Insert Into dish(dish_ID,dish_name,category,kosher,cost,price,num_of_people_for_dish) Values (3,'potato salad','first course','parve',100,150,20);
+Insert Into dish(dish_ID,dish_name,category,kosher,cost,price,num_of_people_for_dish) Values (4,'lamb','main course','meat',500,1000,15);
+Insert Into dish(dish_ID,dish_name,category,kosher,cost,price,num_of_people_for_dish) Values (5,'cream pasta','main course','dariy',200,500,10);
+Insert Into dish(dish_ID,dish_name,category,kosher,cost,price,num_of_people_for_dish) Values (6,'tomato pasta','main course','parve',150,450,10);
+Insert Into dish(dish_ID,dish_name,category,kosher,cost,price,num_of_people_for_dish) Values (7,'burger','main course','meat',400,900,15);
+Insert Into dish(dish_ID,dish_name,category,kosher,cost,price,num_of_people_for_dish) Values (8,'steak','main course','meat',550,1100,15);
+Insert Into dish(dish_ID,dish_name,category,kosher,cost,price,num_of_people_for_dish) Values (9,'fries','side dish','parve',200,300,25);
+Insert Into dish(dish_ID,dish_name,category,kosher,cost,price,num_of_people_for_dish) Values (10,'rice','side dish','parve',100,150,20);
+Insert Into dish(dish_ID,dish_name,category,kosher,cost,price,num_of_people_for_dish) Values (11,'mash','side dish','dariy',100,200,20);
+Insert Into dish(dish_ID,dish_name,category,kosher,cost,price,num_of_people_for_dish) Values (12,'antipasti','side dish','parve',150,250,20);
+Insert Into dish(dish_ID,dish_name,category,kosher,cost,price,num_of_people_for_dish) Values (13,'cheese cake','last course','dariy',150,250,20);
+Insert Into dish(dish_ID,dish_name,category,kosher,cost,price,num_of_people_for_dish) Values (14,'mouse','last course','dariy',100,150,20);
+Insert Into dish(dish_ID,dish_name,category,kosher,cost,price,num_of_people_for_dish) Values (15,'sweet n sour chicken','main course','meat',400,500,15);
+Insert Into dish(dish_ID,dish_name,category,kosher,cost,price,num_of_people_for_dish) Values (16,'fried rice','side dish','parve',150,200,20);
+Insert Into dish(dish_ID,dish_name,category,kosher,cost,price,num_of_people_for_dish) Values (17,'sweet n sour tofu','main course','parve',300,400,15);
+Insert Into dish(dish_ID,dish_name,category,kosher,cost,price,num_of_people_for_dish) Values (18,'mash','side dish','parve',100,150,20);
+
+
+Insert Into supplier(supplier_ID,supplier_name,contact_phone,bank_account_num) Values(1,'MEGA','050-5682679','25569');
+Insert Into supplier(supplier_ID,supplier_name,contact_phone,bank_account_num) Values(2,'AVI','051-5682364','21254');
+Insert Into supplier(supplier_ID,supplier_name,contact_phone,bank_account_num) Values(3,'AM-PM','054-5681254','12689');
+Insert Into supplier(supplier_ID,supplier_name,contact_phone,bank_account_num) Values(4,'Ben and co','050-5681245','12699');
+Insert Into supplier(supplier_ID,supplier_name,contact_phone,bank_account_num) Values(5,'Shalom an sons','052-5123579','21287');
+Insert Into supplier(supplier_ID,supplier_name,contact_phone,bank_account_num) Values(6,'GALIL','050-5123879','12587');
+Insert Into supplier(supplier_ID,supplier_name,contact_phone,bank_account_num) Values(7,'Avri','052-5125479','12687');
+Insert Into supplier(supplier_ID,supplier_name,contact_phone,bank_account_num) Values(8,'Koshe meat inc','051-5975679','12684');
+Insert Into supplier(supplier_ID,supplier_name,contact_phone,bank_account_num) Values(9,'Gad','050-5681254','12378');
+Insert Into supplier(supplier_ID,supplier_name,contact_phone,bank_account_num) Values(10,'Tnuva','050-5125879','16598');
+
+Insert Into supplier_order(order_number,supplier_ID,order_date,order_price,delay) Values(1,1,'2020-06-08',1000,'no');
+Insert Into supplier_order(order_number,supplier_ID,order_date,order_price,delay) Values(2,8,'2020-10-07',2000,'no');
+Insert Into supplier_order(order_number,supplier_ID,order_date,order_price,delay) Values(3,3,'2021-07-05',5000,'no');
+Insert Into supplier_order(order_number,supplier_ID,order_date,order_price,delay) Values(4,5,'2022-05-03',3000,'yes');
+Insert Into supplier_order(order_number,supplier_ID,order_date,order_price,delay) Values(5,6,'2023-01-11',1000,'no');
+Insert Into supplier_order(order_number,supplier_ID,order_date,order_price,delay) Values(6,4,'2023-02-11',1250,'no');
+Insert Into supplier_order(order_number,supplier_ID,order_date,order_price,delay) Values(7,4,'2023-04-09',6000,'yes');
+Insert Into supplier_order(order_number,supplier_ID,order_date,order_price,delay) Values(8,10,'2023-06-05',1500,'yes');
+Insert Into supplier_order(order_number,supplier_ID,order_date,order_price,delay) Values(9,9,'2023-06-08',1200,'no');
+Insert Into supplier_order(order_number,supplier_ID,order_date,order_price,delay) Values(10,1,'2024-06-04',1000,'no');
+
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(1,'cheese');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(1,'pasta');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(1,'suger');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(1,'milk');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(1,'flour');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(1,'butter');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(1,'eggs');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(1,'cream');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(1,'tomato');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(1,'potato');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(1,'oil');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(1,'celery');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(1,'salt');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(1,'onion');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(1,'garlic');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(1,'bread');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(1,'chocolet');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(2,'chocolet');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(2,'suger');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(2,'salt');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(2,'bread');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(2,'sesemi seeds');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(2,'chilli');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(2,'honey');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(2,'butter');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(2,'tofu');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(2,'egg');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(3,'milk');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(3,'suger');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(3,'butter');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(3,'cream');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(3,'mayo');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(3,'potato');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(3,'chocolate');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(3,'honey');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(3,'cheese');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(3,'soy sauce');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(3,'chicken breast');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(3,'tofu');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(4,'potato');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(4,'salt');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(4,'ground beef');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(4,'steak');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(4,'rice');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(4,'noodles');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(5,'pasta');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(5,'tomato');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(5,'garlic');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(5,'milk');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(5,'butter');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(5,'cream');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(5,'cheese');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(5,'raviolli');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(5,'gnochi');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(5,'rice');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(6,'brie cheese');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(6,'parmesan cheese');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(6,'rice');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(6,'egg');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(6,'suger');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(6,'salt');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(6,'potato');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(6,'soy');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(6,'mayo');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(7,'celery');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(7,'onion');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(7,'carot');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(7,'mint');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(8,'tomato');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(8,'onion');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(8,'garlic');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(8,'lamb');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(8,'steak');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(8,'ground beef');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(8,'chicken breast');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(8,'chicken wings');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(9,'mozzarella cheese');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(9,'parmesan cheese');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(9,'gauda cheese');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(9,'tofu');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(9,'soy');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(9,'suger');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(9,'brie cheese');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(10,'celery');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(10,'carrot');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(10,'onion');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(10,'garlic');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(10,'tomato');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(10,'artichoke');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(10,'yam');
+Insert Into supplier_inventory(supplier_ID,ingridient) Values(10,'rice');
+
+
+
+Insert Into order_list(order_number,ingridient) values (1,'cheese');
+Insert Into order_list(order_number,ingridient) values (1,'salt');
+Insert Into order_list(order_number,ingridient) values (1,'onion');
+Insert Into order_list(order_number,ingridient) values (1,'garlic');
+Insert Into order_list(order_number,ingridient) values (1,'pasta');
+Insert Into order_list(order_number,ingridient) values (1,'milk');
+Insert Into order_list(order_number,ingridient) values (1,'suger');
+Insert Into order_list(order_number,ingridient) values (1,'tamato');
+Insert Into order_list(order_number,ingridient) values (2,'ground beef');
+Insert Into order_list(order_number,ingridient) values (2,'lamb');
+Insert Into order_list(order_number,ingridient) values (2,'taomato');
+Insert Into order_list(order_number,ingridient) values (2,'onion');
+Insert Into order_list(order_number,ingridient) values (2,'garlic');
+Insert Into order_list(order_number,ingridient) values (3,'onion');
+Insert Into order_list(order_number,ingridient) values (3,'potato');
+Insert Into order_list(order_number,ingridient) values (3,'mayo');
+Insert Into order_list(order_number,ingridient) values (3,'suger');
+Insert Into order_list(order_number,ingridient) values (3,'soy');
+Insert Into order_list(order_number,ingridient) values (3,'chicken breast');
+Insert Into order_list(order_number,ingridient) values (4,'butter');
+Insert Into order_list(order_number,ingridient) values (4,'pasta');
+Insert Into order_list(order_number,ingridient) values (4,'tomato');
+Insert Into order_list(order_number,ingridient) values (4,'milk');
+Insert Into order_list(order_number,ingridient) values (4,'cream');
+Insert Into order_list(order_number,ingridient) values (5,'onion');
+Insert Into order_list(order_number,ingridient) values (6,'potato');
+Insert Into order_list(order_number,ingridient) values (6,'ground beef');
+Insert Into order_list(order_number,ingridient) values (6,'salt');
+Insert Into order_list(order_number,ingridient) values (6,'steak');
+Insert Into order_list(order_number,ingridient) values (6,'rice');
+Insert Into order_list(order_number,ingridient) values (7,'ground beef');
+Insert Into order_list(order_number,ingridient) values (7,'potato');
+Insert Into order_list(order_number,ingridient) values (7,'steak');
+Insert Into order_list(order_number,ingridient) values (8,'artichoke');
+Insert Into order_list(order_number,ingridient) values (8,'onion');
+Insert Into order_list(order_number,ingridient) values (8,'yam');
+Insert Into order_list(order_number,ingridient) values (8,'rice');
+Insert Into order_list(order_number,ingridient) values (8,'celery');
+Insert Into order_list(order_number,ingridient) values (8,'carot');
+Insert Into order_list(order_number,ingridient) values (9,'soy');
+Insert Into order_list(order_number,ingridient) values (9,'suger');
+Insert Into order_list(order_number,ingridient) values (9,'tofu');
+Insert Into order_list(order_number,ingridient) values (10,'tomato');
+Insert Into order_list(order_number,ingridient) values (10,'potato');
+Insert Into order_list(order_number,ingridient) values (10,'egg');
+Insert Into order_list(order_number,ingridient) values (10,'mayo');
+Insert Into order_list(order_number,ingridient) values (10,'salt');
+Insert Into order_list(order_number,ingridient) values (10,'onion');
+
+
+
+
+Insert Into catering_event(event_ID,event_date,location,customer_ID,kosher,num_of_guests,finale_payment,order_number) 
+values (1,'2020-08-05','tel-aviv',9,'dariy',10,800,1);
+Insert Into catering_event(event_ID,event_date,location,customer_ID,kosher,num_of_guests,finale_payment,order_number) 
+values (2,'2020-10-08','tel-aviv',8,'meat',25,1200,2);
+Insert Into catering_event(event_ID,event_date,location,customer_ID,kosher,num_of_guests,finale_payment,order_number) 
+values (3,'2020-12-10','haifa',4,'parve',30,1000,3);
+Insert Into catering_event(event_ID,event_date,location,customer_ID,kosher,num_of_guests,finale_payment,order_number) 
+values (4,'2021-09-05','ramat-gan',5,'parve',50,2000,4);
+Insert Into catering_event(event_ID,event_date,location,customer_ID,kosher,num_of_guests,finale_payment,order_number) 
+values (5,'2022-10-10','tel-aviv',7,'parve',30,1200,5);
+Insert Into catering_event(event_ID,event_date,location,customer_ID,kosher,num_of_guests,finale_payment,order_number) 
+values (6,'2022-11-03','haifa',9,'meat',100,5000,6);
+Insert Into catering_event(event_ID,event_date,location,customer_ID,kosher,num_of_guests,finale_payment,order_number)
+values (7,'2023-06-04','ramat-gan',10,'meat',150,6000,7);
+Insert Into catering_event(event_ID,event_date,location,customer_ID,kosher,num_of_guests,finale_payment,order_number)
+values (8,'2023-08-11','haifa',2,'dariy',100,4000,8);
+Insert Into catering_event(event_ID,event_date,location,customer_ID,kosher,num_of_guests,finale_payment,order_number)
+values (9,'2023-10-06','ramat-gan',3,'meat',10,1000,9);
+Insert Into catering_event(event_ID,event_date,location,customer_ID,kosher,num_of_guests,finale_payment,order_number) 
+values (10,'2024-02-05','tel-aviv',6,'parve',150,5000,10);
+
+
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (1,1,1);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (1,5,1);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (1,13,1);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (2,1,2);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (2,4,1);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (2,7,1);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (3,2,2);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (3,17,2);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (3,18,2);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (4,5,3);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (4,6,3);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (5,2,6);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (5,3,6);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (5,16,6);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (6,7,1);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (6,8,1);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (6,9,1);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (6,10,1);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (7,7,2);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (7,8,2);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (7,9,5);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (8,5,4);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (8,11,2);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (8,13,3);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (8,16,4);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (9,17,5);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (10,1,5);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (10,2,5);
+Insert Into dish_in_event(event_ID,dish_ID,amount) values (10,3,5);
+
+Insert Into chef_cook_dish(chef_ID,dish_ID) values (11,1);
+Insert Into chef_cook_dish(chef_ID,dish_ID) values (11,5);
+Insert Into chef_cook_dish(chef_ID,dish_ID) values (11,8);
+Insert Into chef_cook_dish(chef_ID,dish_ID) values (11,9);
+Insert Into chef_cook_dish(chef_ID,dish_ID) values (11,10);
+Insert Into chef_cook_dish(chef_ID,dish_ID) values (12,2);
+Insert Into chef_cook_dish(chef_ID,dish_ID) values (12,3);
+Insert Into chef_cook_dish(chef_ID,dish_ID) values (12,5);
+Insert Into chef_cook_dish(chef_ID,dish_ID) values (13,1);
+Insert Into chef_cook_dish(chef_ID,dish_ID) values (13,4);
+Insert Into chef_cook_dish(chef_ID,dish_ID) values (13,5);
+Insert Into chef_cook_dish(chef_ID,dish_ID) values (14,11);
+Insert Into chef_cook_dish(chef_ID,dish_ID) values (14,10);
+Insert Into chef_cook_dish(chef_ID,dish_ID) values (15,1);
+Insert Into chef_cook_dish(chef_ID,dish_ID) values (16,1);
+Insert Into chef_cook_dish(chef_ID,dish_ID) values (20,1);
+Insert Into chef_cook_dish(chef_ID,dish_ID) values (20,4);
+Insert Into chef_cook_dish(chef_ID,dish_ID) values (18,4);
+Insert Into chef_cook_dish(chef_ID,dish_ID) values (18,6);
+Insert Into chef_cook_dish(chef_ID,dish_ID) values (20,2);
+Insert Into chef_cook_dish(chef_ID,dish_ID)values (11,6);
+Insert Into chef_cook_dish(chef_ID,dish_ID)values (11,18);
+Insert Into chef_cook_dish(chef_ID,dish_ID)values (11,17);
+
+
+Insert Into chef_in_event(event_ID,chef_ID) values (1,11);
+Insert Into chef_in_event(event_ID,chef_ID) values (1,20);
+Insert Into chef_in_event(event_ID,chef_ID) values (1,18);
+Insert Into chef_in_event(event_ID,chef_ID) values (2,18);
+Insert Into chef_in_event(event_ID,chef_ID) values (2,16);
+Insert Into chef_in_event(event_ID,chef_ID) values (2,13);
+Insert Into chef_in_event(event_ID,chef_ID) values (3,16);
+Insert Into chef_in_event(event_ID,chef_ID) values (3,12);
+Insert Into chef_in_event(event_ID,chef_ID) values (4,12);
+Insert Into chef_in_event(event_ID,chef_ID) values (4,16);
+Insert Into chef_in_event(event_ID,chef_ID) values (2,11);
+Insert Into chef_in_event(event_ID,chef_ID) values (3,11);
+Insert Into chef_in_event(event_ID,chef_ID) values (4,11);
+Insert Into chef_in_event(event_ID,chef_ID) values (8,11);
+Insert Into chef_in_event(event_ID,chef_ID) values (6,13);
+Insert Into chef_in_event(event_ID,chef_ID) values (6,11);
+Insert Into chef_in_event(event_ID,chef_ID) values (8,14);
+Insert Into chef_in_event(event_ID,chef_ID) values (8,20);
+Insert Into chef_in_event(event_ID,chef_ID) values (9,16);
+Insert Into chef_in_event(event_ID,chef_ID) values (9,18);
+Insert Into chef_in_event(event_ID,chef_ID) values (10,13);
+Insert Into chef_in_event(event_ID,chef_ID) values (10,18);
+
+Insert Into waiter_in_event(event_ID,waiter_ID) values (1,17);
+Insert Into waiter_in_event(event_ID,waiter_ID) values (1,19);
+Insert Into waiter_in_event(event_ID,waiter_ID) values (1,25);
+Insert Into waiter_in_event(event_ID,waiter_ID) values (2,23);
+Insert Into waiter_in_event(event_ID,waiter_ID) values (3,27);
+Insert Into waiter_in_event(event_ID,waiter_ID) values (4,31);
+Insert Into waiter_in_event(event_ID,waiter_ID) values (5,32);
+Insert Into waiter_in_event(event_ID,waiter_ID) values (6,27);
+Insert Into waiter_in_event(event_ID,waiter_ID) values (7,29);
+Insert Into waiter_in_event(event_ID,waiter_ID) values (8,17);
+Insert Into waiter_in_event(event_ID,waiter_ID) values (9,31);
+Insert Into waiter_in_event(event_ID,waiter_ID) values (10,32);
+
+Insert Into recipe(dish_ID,ingridient) values (1,'tomato');
+Insert Into recipe(dish_ID,ingridient) values (1,'onion');
+Insert Into recipe(dish_ID,ingridient) values (1,'garlic');
+Insert Into recipe(dish_ID,ingridient) values (1,'salt');
+Insert Into recipe(dish_ID,ingridient) values (2,'onion');
+Insert Into recipe(dish_ID,ingridient) values (2,'egg');
+Insert Into recipe(dish_ID,ingridient) values (2,'salt');
+Insert Into recipe(dish_ID,ingridient) values (2,'mayo');
+Insert Into recipe(dish_ID,ingridient) values (3,'potato');
+Insert Into recipe(dish_ID,ingridient) values (3,'salt');
+Insert Into recipe(dish_ID,ingridient) values (3,'mayo');
+Insert Into recipe(dish_ID,ingridient) values (4,'lamb');
+Insert Into recipe(dish_ID,ingridient) values (4,'butter');
+Insert Into recipe(dish_ID,ingridient) values (4,'salt');
+Insert Into recipe(dish_ID,ingridient) values (5,'pasta');
+Insert Into recipe(dish_ID,ingridient) values (5,'milk');
+Insert Into recipe(dish_ID,ingridient) values (5,'butter');
+Insert Into recipe(dish_ID,ingridient) values (5,'cheese');
+Insert Into recipe(dish_ID,ingridient) values (6,'pasta');
+Insert Into recipe(dish_ID,ingridient) values (6,'tomato');
+Insert Into recipe(dish_ID,ingridient) values (6,'butter');
+Insert Into recipe(dish_ID,ingridient) values (6,'garlic');
+Insert Into recipe(dish_ID,ingridient) values (7,'onion');
+Insert Into recipe(dish_ID,ingridient) values (7,'garlic');
+Insert Into recipe(dish_ID,ingridient) values (7,'butter');
+Insert Into recipe(dish_ID,ingridient) values (7,'ground beef');
+Insert Into recipe(dish_ID,ingridient) values (8,'steak');
+Insert Into recipe(dish_ID,ingridient) values (8,'butter');
+Insert Into recipe(dish_ID,ingridient) values (8,'garlic');
+Insert Into recipe(dish_ID,ingridient) values (9,'potato');
+Insert Into recipe(dish_ID,ingridient) values (9,'salt');
+Insert Into recipe(dish_ID,ingridient) values (10,'rice');
+Insert Into recipe(dish_ID,ingridient) values (10,'salt');
+Insert Into recipe(dish_ID,ingridient) values (11,'potato');
+Insert Into recipe(dish_ID,ingridient) values (11,'salt');
+Insert Into recipe(dish_ID,ingridient) values (11,'butter');
+Insert Into recipe(dish_ID,ingridient) values (12,'celery');
+Insert Into recipe(dish_ID,ingridient) values (12,'yam');
+Insert Into recipe(dish_ID,ingridient) values (12,'onion');
+Insert Into recipe(dish_ID,ingridient) values (12,'artichoke');
+Insert Into recipe(dish_ID,ingridient) values (13,'cheese');
+Insert Into recipe(dish_ID,ingridient) values (13,'milk');
+Insert Into recipe(dish_ID,ingridient) values (13,'butter');
+Insert Into recipe(dish_ID,ingridient) values (13,'suger');
+Insert Into recipe(dish_ID,ingridient) values (14,'Chocolate');
+Insert Into recipe(dish_ID,ingridient) values (14,'milk');
+Insert Into recipe(dish_ID,ingridient) values (14,'butter');
+Insert Into recipe(dish_ID,ingridient) values (15,'suger');
+Insert Into recipe(dish_ID,ingridient) values (15,'soy');
+Insert Into recipe(dish_ID,ingridient) values (15,'chicken breast');
+Insert Into recipe(dish_ID,ingridient) values (15,'onion');
+Insert Into recipe(dish_ID,ingridient) values (16,'suger');
+Insert Into recipe(dish_ID,ingridient) values (16,'soy');
+Insert Into recipe(dish_ID,ingridient) values (16,'rice');
+Insert Into recipe(dish_ID,ingridient) values (17,'suger');
+Insert Into recipe(dish_ID,ingridient) values (17,'soy');
+Insert Into recipe(dish_ID,ingridient) values (17,'tofu');
+Insert Into recipe(dish_ID,ingridient) values (17,'onion');
+Insert Into recipe(dish_ID,ingridient) values (18,'potato');
+Insert Into recipe(dish_ID,ingridient) values (18,'salt');
+
+
+
+
+
+
+
+
+
+ 
